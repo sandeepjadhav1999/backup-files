@@ -1,0 +1,9 @@
+USING EVENTS:
+
+*) Decide what kind of event you want to  watch for
+*) Create a function (Usually a eventhandler or a callback function )
+*) Name the function using a pattern like handle+Eventname
+    EX: handleClick
+*) Pass the function has a prop to the plain statement
+*) Make sure you pass the function with correct event name 
+*) Make sure you pass the refernce of the function and do not call it right away

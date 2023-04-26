@@ -1,0 +1,19 @@
+// How does react start up
+
+* all the project JS files are bundled into  a single file , ( usally v call it app bundle), then the bundle is place on to the server
+* the user makes a request and i  response v send back a index.html + bundle files
+* then the browser excutes the code..
+    |
+    |
+    |
+    \/
+if u look at the public folder in the project  v hv a index.html file in that v hv a body tag wch has a id="root"
+|||rly in src> index.js v hv written a code to access the root element n telling react to take control of the root element and rendor of project in the root 
+
+
+
+// React and ReactDOM
+
+* react library that defines what a component is and how multiple components work together
+* reactDOM library that knows how to get a components show up in the browser
+

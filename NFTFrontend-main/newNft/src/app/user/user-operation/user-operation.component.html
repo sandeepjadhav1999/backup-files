@@ -1,0 +1,20 @@
+<div class="back"></div>
+<div fxLayout="row" fxLayoutAlign="start start">
+    <div fxFlex="1 1 60%">
+        <div class="allign">
+            <img src="assets/Data.png" alt="" width="30%" height="30%" />
+            <img src="assets/Quality.png" alt="" width="30%" height="30%" />
+          </div>
+          <div class="middle">
+            <img src="assets/Platform.png" alt="" width="30%" height="30%" />
+            <img src="assets/Health.png" alt="" width="30%" height="30%" />
+          </div>
+    </div>
+    <div fxFlex="1 1 40%" style="margin-top:14% ;">
+        <div class="cards ">
+            <mat-card class="card mt" [routerLink]="['/user','userNft']" matRipple>My NFTs</mat-card>
+            <mat-card class="card" [routerLink]="['/home']"  matRipple (click)="logout()">Log Out</mat-card>
+        </div>
+        
+    </div>
+</div>

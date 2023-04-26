@@ -1,0 +1,3 @@
+HOOKS:
+
+hooks are function given to us by react wch add in additional functionality

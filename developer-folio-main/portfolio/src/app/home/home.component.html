@@ -1,0 +1,253 @@
+<section class="main-body">
+    <header>
+        <div class="header space"  fxLayout.lt-md="column" fxLayout="row" fxLayoutAlign="space-between center" fxLayoutAlign.lt-md="center center"  fxLayoutGap.lt-sm="10px">
+            <div>
+                <div class="name">Sandeep Jadhav</div>
+            </div>
+            <div fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="start center" class="contact">
+                <div>Angular Developer</div>
+                <div>
+                    <button mat-flat-button aria-label="Example icon button with a menu icon"
+                        (click)="navigateToLinkedIn()" fxHide.lt-sm>
+                        <mat-icon class="fab fa-linkedin"></mat-icon>
+                        LinkedIn
+                    </button>
+                    <button mat-flat-button aria-label="Example icon button with a menu icon" (click)="copyText()"
+                        fxHide.lt-sm>
+                        <mat-icon class="fa-solid fa-address-book"></mat-icon>
+                        +91 7760847075
+                    </button>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="introduction space">
+        <div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="start center" fxLayoutAlign.lt-md="center start"
+            fxLayoutGap="20px">
+            <div fxFlex="1 1 50%" fxFlex.lt-md="1 1 100%" [ngStyle.lt-md]="{'padding-left':'10px'}">
+                <h1 class="title">Hi, I'm Sandeep Jadhav! 👋</h1>
+                <h3 class="subtitle">I'm an innovative and task-driven professional with 1.5 years of experience in web
+                    design and development. I have a record of success in consistently identifying and providing the
+                    technological needs of companies through ingenious innovation. My skills include creating user
+                    interfaces, writing and testing codes, troubleshooting simple/complex issues, and implementing new
+                    features based on user feedback.</h3>
+            </div>
+            <div fxFlex="1 1 50%" fxFlex.lt-md="1 1 100%" fxLayoutAlign="center center">
+                <img src="assets/hiker.gif" alt="" class="all-img">
+            </div>
+        </div>
+    </section>
+    <section class="introduction space">
+        <div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="start center" fxLayoutAlign.lt-md="center start"
+            fxLayoutGap="20px">
+            <div fxFlex="1 1 50%" fxFlex.lt-md="1 1 100%" fxLayoutAlign="center center">
+                <img src="assets/tech.gif" alt="" class="all-img">
+            </div>
+            <div fxFlex="1 1 50%" fxFlex.lt-md="1 1 100%" [ngStyle.lt-md]="{'padding-left':'10px'}">
+                <h1 class="title">What I do.</h1>
+                <div fxLayout="row" fxLayoutAlign="start center">
+                    <img *ngFor="let logo of logo" src="{{logo}}" alt="" class="tech-logo">
+                </div>
+                <div class="subtitle">
+                    <h2>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h2>
+                    <div>
+                        <h3 class="line">⚡ Develop highly interactive Front end / User Interfaces for your web and
+                            mobile
+                            applications</h3>
+                        <h3 class="line">⚡ Progressive Web Applications ( PWA )</h3>
+                        <h3 class="line">⚡ Integration of third-party services such as Firebase/ AWS</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="introduction space">
+        <div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="start center" fxLayoutAlign.lt-md="center start"
+            fxLayoutGap="20px">
+            <div fxFlex="1 1 50%" fxFlex.lt-md="1 1 100%" [ngStyle.lt-md]="{'padding-left':'10px'}">
+                <h1 class="title">Proficiency.</h1>
+                <div *ngFor="let tech of techskills" class="flex subtitle">
+                    <div style=" width: 100px;" class="subtitle">{{tech.name}} :</div>
+                    <div class="progress">
+                        <div class="progress-value" [style.width]="tech.value + '%'"></div>
+                    </div>
+                    <div class="subtitle">{{tech.value}} %</div>
+                </div>
+            </div>
+            <div fxFlex="1 1 50%" fxFlex.lt-md="1 1 100%" fxLayoutAlign="center center">
+                <img src="assets/skill.gif" alt="" class="all-img">
+            </div>
+        </div>
+    </section>
+    <section class="introduction space">
+        <div [ngStyle.lt-md]="{'padding-left':'10px'}">
+            <h1 class="title">Experience</h1>
+            <mat-card class="example-card hovercard">
+                <img mat-card-image src="assets/logo.png" alt="Photo of a Shiba Inu" class="company-logo">
+                <mat-card-content>
+                    <div class="align">
+                        <h2 class="title-exp">Associate Software Engineer</h2>
+                        <h2 class="title-exp">From 2021 - Present</h2>
+                        <h3 class="subtitle">I am responsible for designing, developing, and maintaining web
+                            applications using the latest technologies and best practices. I am proficient in front-end
+                            and back-end development and have experience with popular web development frameworks such as
+                            Angular, Javascript, Html, Css, Python</h3>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+
+        </div>
+    </section>
+    <section class="introduction space">
+        <div [ngStyle.lt-md]="{'padding-left':'10px'}">
+            <h1 class="title">Projects.</h1>
+            <div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="start center" fxLayoutGap="20px">
+                <mat-card class="exp-card hovercard">
+                    <img mat-card-image src="assets/logo.png" alt="Photo of a Shiba Inu" class="company-logo">
+                    <div style="margin-left: 10px;">
+                        <h3 class="title-exp" style="line-height: 0.5;"><span class="project-align">Role:
+                            </span>Associate Software Engineer</h3>
+                        <h3 class="title-exp" style="line-height: 0.5;"><span class="project-align">Name: </span>Circle
+                            NFT Badges Project</h3>
+                        <h3 class="title-exp" style="line-height: 0.5;"><span class="project-align">Time Period:
+                            </span>From 2021 - Present</h3>
+                    </div>
+                    <mat-card-content>
+                        <h2 class="title-exp">Responsibilities: -</h2>
+                        <h3 class="subtitle">
+                            <div>
+                                ⚡Circle NFT badge is a tool where NFT are issued to the employees based on their mastery
+                                levels in
+                                circles
+                            </div>
+                            <div>
+                                ⚡ Circles are groups within the organization whose focus is to Identify and elevate
+                                technologists with the
+                                latest skills for a sustainable future. Combine business and tech skills from key
+                                functions across the
+                                board, deliver effective engineering solutions, and Mentor people across circles to
+                                succeed.
+                            </div>
+                            <div>⚡ Every employee in the organization belongs to at least 1 circle according to their
+                                skill set, area of
+                                interest, and area of specialty.</div>
+                            <div>⚡ Circle NFT badges are non-fungible tokens that are unique batches for everyone.</div>
+                            <div>⚡ As the employee enhances their skill sets a new NFT badges of higher level is issued
+                                to him.</div>
+                        </h3>
+                    </mat-card-content>
+                </mat-card>
+
+                <mat-card class="exp-card hovercard">
+                    <img mat-card-image src="assets/logo.png" alt="Photo of a Shiba Inu" class="company-logo">
+                    <div style="margin-left: 10px;">
+                        <h3 class="title-exp" style="line-height: 0.5;"><span class="project-align">Role:
+                            </span>Associate Software Engineer</h3>
+                        <h3 class="title-exp" style="line-height: 0.5;"><span class="project-align">Name: </span>CRM
+                            System for Food Vendor</h3>
+                        <h3 class="title-exp" style="line-height: 0.5;"><span class="project-align">Time Period:
+                            </span>Dec 2021 – Jan 2022</h3>
+                    </div>
+                    <mat-card-content>
+                        <h2 class="title-exp">Responsibilities: -</h2>
+                        <h3 class="subtitle">
+                            <div>
+                                ⚡CRM (Customer Relationship Management) for city having multiple Food Outlets.
+                            </div>
+                            <div>
+                                ⚡End User will be calling the Food Vendor (who is the User of the software).
+                            </div>
+                            <div>⚡ Each Customer will be Registered first, and an ID will be assigned.</div>
+                            <div>⚡ The Order will place based on the Customer ID i.e. (Mobile Number)</div>
+                        </h3>
+                    </mat-card-content>
+                </mat-card>
+
+                <mat-card class="exp-card hovercard">
+                    <img mat-card-image src="assets/logo.png" alt="Photo of a Shiba Inu" class="company-logo">
+                    <div style="margin-left: 10px;">
+                        <h3 class="title-exp" style="line-height: 0.5;"><span class="project-align">Role:
+                            </span>Front-end Developer</h3>
+                        <h3 class="title-exp" style="line-height: 0.5;"><span class="project-align">Name:
+                            </span>HACKATHON PROJECT: Employee 360</h3>
+                        <h3 class="title-exp" style="line-height: 0.5;"><span class="project-align">Time Period:
+                            </span>Dec 2021 – Jan 2022</h3>
+                    </div>
+                    <mat-card-content>
+                        <h2 class="title-exp">Responsibilities: -</h2>
+                        <h3 class="subtitle">
+                            <div>
+                                ⚡Task management is the tool for creating and managing a task through the project s
+                                lifecycle through
+                                the project s lifecycle.
+                            </div>
+                            <div>
+                                ⚡Assigning tasks to multiple users along with the status of work
+                            </div>
+                            <div>⚡ An assignee can update the status of work on a daily basis along with a description
+                                of tasks done.</div>
+                            <div>⚡ The manager can keep track of all the tasks (check task status).</div>
+                            <div>⚡ This system provides instant information regarding the work under process within the
+                                company. The
+                                application helps in easy management of tasks and data</div>
+                        </h3>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+    </section>
+    <section class="introduction space">
+        <div  [ngStyle.lt-md]="{'padding-left':'10px'}">
+            <h1 class="title">Achievement & Certification.</h1>
+            <div fxLayout="row wrap" fxLayoutGap="10px grid">
+                <div fxFlex="50%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let certificate of certificate">
+                    <mat-card class="hovercard">
+                        <mat-card-content
+                            style="display: flex; align-items: center; gap: 30px; justify-content: start;">
+                            <div><img src="{{certificate.org_logo}}" alt=""></div>
+                            <div>
+                                <div style="display: flex; align-items: center;">
+                                    <div style="width: 100px;" class="title-exp">Organization : </div>
+                                    <div class="subtitle"> {{certificate.org}}</div>
+                                </div>
+                                <div style="display: flex; align-items: center;">
+                                    <div style="width: 100px;" class="title-exp">Name : </div>
+                                    <div class="subtitle"> {{certificate.name}}</div>
+                                </div>
+                                <div style="display: flex; align-items: center;">
+                                    <div style="width: 100px;" class="title-exp">Credential ID : </div>
+                                    <div class="subtitle"> {{certificate.name}}</div>
+                                </div>
+                            </div>
+                        </mat-card-content>
+
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="introduction space">
+        <div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="start center" [ngStyle.lt-md]="{'padding-left':'10px'}">
+            <div fxFlex="1 1 50%" fxFlex.lt-md="1 1 100%">
+                <h1 class="title"> Contact Me<span><img src="assets/telephone.png"  alt="" class="telephone"></span></h1>
+                <h2 class="subtitle">Looking to join an organization where an opportunity for growth and professional development is 
+                    embraced.
+                </h2>
+                <div >
+                    <h1 class="title-exp">Contact : +91 7760847075</h1>
+                    <h1 class="title-exp">Email : sandeep.jadhav2409@gmail.com</h1>
+                </div>
+            </div>
+            <div fxFlex="1 1 50%" fxFlex.lt-md="1 1 100%" fxLayoutAlign=" center center" fxHide.lt-md>
+                <img src="assets/mail.gif" alt="">
+            </div>
+        </div>
+    </footer>
+
+</section>
+    

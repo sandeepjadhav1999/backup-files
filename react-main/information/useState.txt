@@ -1,0 +1,36 @@
+************USESTATE***************
+
+things to knw about:
+
+*) we use state system whnever we want to update content on the screen
+*) it is called useState
+*) the first argument to the useState is the "state"
+*) the second argument used in useSTate is the setter function 
+*) we can assign default value to the useState
+*) whenever setter function is triggered, React re renders the component
+
+
+EX:
+const[      count,       setCount] =     useState(0)
+      default value  setter function         default value 
+
+
+
+UPDATING A STATE:
+*) when ever v create a usestate with default value of {} or [], javascript see that v want to create a array and assignes a array memory in our computer
+
+
+*************** refer photo error state ****************
+
+
+*) next whn v try to update the array using push or any inbuild array methods. the array get updated but the state never changes
+*) because the usestate reference the same state
+*) react has this unique property wch if the state is referncing to the same memory space in memoery than it does not re render the component
+ 
+SOLUTION TO this
+*) create a new array refernceing a new memory space than use that memeory space to update the state
+
+*********************** refer photo soln state *******************
+*) this way the state get updated 
+
+cheat sheet for use state : https://state-updates.vercel.app/

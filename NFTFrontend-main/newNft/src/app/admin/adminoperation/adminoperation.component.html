@@ -1,0 +1,31 @@
+<div class="back"></div>
+<div fxLayout="row" fxLayoutAlign="start start">
+  <div fxFlex="1 1 60%">
+    <div class="allign">
+      <img src="assets/Data.png" alt="" width="30%" height="30%" />
+      <img src="assets/Quality.png" alt="" width="30%" height="30%" />
+    </div>
+    <div class="middle">
+      <img src="assets/Platform.png" alt="" width="30%" height="30%" />
+      <img src="assets/Health.png" alt="" width="30%" height="30%" />
+    </div>
+  </div>
+  <div fxFlex="1 1 40%" style="margin-top: 18%">
+    <div class="cards">
+      <mat-card class="card mt" [routerLink]="['/admin', 'issueNft']" matRipple
+        >Issue NFT</mat-card
+      >
+      <mat-card class="card" [routerLink]="['/admin', 'allNft']" matRipple
+        >Retrieve All NFTs</mat-card
+      >
+      <!-- <mat-card class="card" matRipple>Upload Files</mat-card> -->
+      <mat-card
+        class="card"
+        [routerLink]="['/home']"
+        (click)="logout()"
+        matRipple
+        >Log Out</mat-card
+      >
+    </div>
+  </div>
+</div>

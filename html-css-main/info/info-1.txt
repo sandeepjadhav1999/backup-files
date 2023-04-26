@@ -1,0 +1,12 @@
+the 3 programming language of front end development
+HTML
+CSS
+Javascript
+
+where Html represents the content
+css the presentation of the content
+javascript is the programming language: dynamic effects and web applications
+
+
+why do v call it index.Html
+because its the default name of any websites

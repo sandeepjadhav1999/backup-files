@@ -1,0 +1,36 @@
+.back {
+  background-color: #0c1e24;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.cback {
+  margin-top: 50px;
+}
+
+#change:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.secondContainer {
+  margin: 0 auto;
+
+  max-width: 1663px;
+}
+
+.word {
+  word-break: break-all;
+  max-width: 200px;
+  padding-right: 10px;
+}
+
+
+.circleNftimg{
+  width: 100px;
+}

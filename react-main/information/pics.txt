@@ -1,0 +1,2 @@
+in React *) if a image has a size less than 10kb than it is trated as a base 64 format
+         *) if a image has a size more  than 10kb than it is trated as a seperate file   

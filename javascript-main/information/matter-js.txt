@@ -1,0 +1,7 @@
+MATTER JS Terminology:
+
+WORLD: object that contains all the differemt "THINGS" in matter JS
+ENGINE: read the current postion of the word from the world object, and calucaltes the position of the different shapes
+RUNNER: get the eniget the world to work togethers, run 60 times per second
+RENDER: whenever the engine proccesse an update the render will look at the all diff shapes n diaplay it on the screen
+BODY: shae that we are displaying

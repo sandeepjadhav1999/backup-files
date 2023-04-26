@@ -1,0 +1,21 @@
+
+Floats:
+
+* the old way of building layouts, using css Floats
+
+
+Flex:
+* modern way of building layouts in 1-D way
+* the main idea behind flex is that the container can automatically divide the space around based on its child elements
+* flex allows to automatically align items inside a container
+
+Grid:
+* building layouts in 2-D way
+
+
+
+
+diff b/w floats and absolute positiins:
+the floated elements will have a impact around its sourroinding
+whereas
+absolute will just overlap on the other element

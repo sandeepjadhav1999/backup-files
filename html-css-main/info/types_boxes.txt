@@ -1,0 +1,24 @@
+block-level elements
+
+* there formatted visually as block
+* thy take 100% width of the parent elements
+* thy r stacked vertically
+
+
+by default most of the elements in html r block level elements EX: h1-6, body, nav, header, fottore, section
+
+
+
+Inline -level elements
+* thy oly occupy oly the space thy req
+* causes no line break before after
+* box model is applied in a diff way : width n hieght r not applied
+* padding n margin are applied horitzontally
+EX: a, img, em, button, strong
+
+
+Inline-block
+* appreas inline on the outside but works as a block on the inside
+* thy occupy oly the space thy req
+* causes no line break
+* boc model cn be appplied

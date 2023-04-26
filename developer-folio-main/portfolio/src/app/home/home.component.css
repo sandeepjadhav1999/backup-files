@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kaushan+Script&family=Racing+Sans+One&family=Rubik:wght@500&family=Yellowtail&display=swap');
+
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Racing Sans One', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Yellowtail', cursive;
+*/
+
+.main-body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.introduction {
+    max-width: 1480px;
+    margin: 10px auto;
+}
+
+.space {
+    padding-bottom: 100px;
+}
+
+
+
+.name {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 180%;
+}
+
+.logo {
+    max-width: 3%;
+    margin-right: 2px;
+    margin-bottom: 1px;
+
+}
+
+.contact {
+    font-family: 'Rubik', sans-serif;
+    font-size: 150%;
+
+}
+
+.linkedIn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    color: #0D0D0D;
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+}
+
+.title-exp {
+    color: #0D0D0D;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.subtitle {
+    color: #666666
+}
+
+.all-img {
+    width: 50%;
+}
+
+.tech-logo {
+    width: 10%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.line {
+    line-height: 1;
+}
+
+
+.progress {
+    background: transparent;
+    border-radius: 100px;
+    padding: 0 5px;
+    height: 10px;
+    width: 500px;
+}
+
+.progress-value {
+    border-radius: 100px;
+    background: #CC99CC;
+    height: 10px;
+
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.example-card {
+    max-width: 350px;
+
+    box-shadow: 1px 3px 21px -6px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 1px 3px 21px -6px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 1px 3px 21px -6px rgba(0, 0, 0, 1);
+
+}
+
+.company-logo {
+    width: 50%;
+    margin: 10px auto;
+    margin-top: 50px;
+    filter: brightness(0%);
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.exp-card {
+    max-width: 470px;
+    height: 700px;
+    box-shadow: 1px 3px 21px -6px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 1px 3px 21px -6px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 1px 3px 21px -6px rgba(0, 0, 0, 1);
+
+}
+
+.exp-header-image {
+    width: 75%;
+    filter: brightness(0%);
+}
+
+.project-align{
+    width: 150px;
+    display: inline-block;
+}
+
+.certificate-card{
+    max-width: 100%;
+}
+
+.org-img{
+    width:40%;
+}
+
+.cretificate-flex{
+    display: flex;
+    gap: 10px;
+}
+
+.hovercard{
+    transition: all 0.5s;
+}
+.hovercard:hover{
+    transform: scale(1.05);
+}
+
+.carddd{
+    max-width: 400px;
+}
+
+.telephone{
+    width: 4%;
+}

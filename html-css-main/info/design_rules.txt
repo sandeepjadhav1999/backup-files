@@ -1,0 +1,8 @@
+diff b/w web designer n deveploer
+
+web designer : creates the over look of the website through a sketch or any other tools
+web developer : actually takes the designer fr the web designer n thn develpes the code using html css javascript
+
+
+typograpy:
+it is way of write which make the text more readable, appealing 

@@ -1,0 +1,9 @@
+CSS 
+css stands for cascading spread sheet
+it used to dscribe the visual style and presentation of the content
+
+
+h1{     // h1 is the selector 
+    text: red    //desclaration
+    properties : value
+}

@@ -1,0 +1,25 @@
+// PROPS
+
+* its used to customize an element like (adding to type to an input tag)
+
+
+// Rules for converting HTML to JSX
+
+Rule 1: in jsx all props are camelCase
+Rule 2: in jsx the number attributs uses curly braces
+Rule 3: in jsx boolean 'true' can be wrtiiter with just the property name and 'false' should be written with curly braces
+Rule 4: in jsx if u want to use class attribute than u shd write it has className
+Rule 5: in jsx inline css are provied as objects
+
+EX:
+
+         HTML                  ------------------------->              JSX
+    <input maxlength='5'/>                                    <input maxLength=5/>
+    <input maxlength='5'/>                                    <input maxLength={5}/>
+    <input autofocus=true/>                                   <input autoFocus/> or <input autoFocus={false}/>
+    <input class='add'/>                                      <input className='add'/>    
+    <input style="color:'red'"/>                              <input style={{"color:'red'"}}/>
+
+
+QUICK CheatSheet about JSX :
+    https://jsx-notes.vercel.app/

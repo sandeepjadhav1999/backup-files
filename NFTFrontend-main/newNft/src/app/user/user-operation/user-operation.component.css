@@ -1,0 +1,37 @@
+.back {
+  background-color: #0c1e24;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.allign {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.card {
+  background-color: #0575e6;
+  max-width: 400px;
+  max-height: fit-content;
+  color: white;
+  font-size: large;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.cards {
+  margin-left: 100px;
+  cursor: pointer;
+}

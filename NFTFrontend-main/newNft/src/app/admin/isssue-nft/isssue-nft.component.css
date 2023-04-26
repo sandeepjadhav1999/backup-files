@@ -1,0 +1,53 @@
+.back {
+  background-color: #0c1e24;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.margin {
+  margin-top: 5%;
+}
+
+.cback {
+  position: absolute;
+  bottom: 0.5%;
+  left: 45%;
+}
+
+.pop:hover {
+  transform: scale(1.5);
+  transition: ease-out 0.5s;
+}
+
+#invisble::-webkit-scrollbar {
+  display: none !important;
+}
+
+#hide::-webkit-scrollbar {
+  display: none !important;
+}
+
+.formclass {
+  max-width: 600px;
+
+  margin: 0 auto;
+}
+
+.spinner {
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.spinnerAdj {
+  position: relative;
+}

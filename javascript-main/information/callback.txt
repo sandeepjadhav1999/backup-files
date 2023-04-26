@@ -1,0 +1,5 @@
+whenever v pass a function to a another function and it excutes in that funtion than itts called a callback function 
+
+
+METHODS:
+when v add a function as a property in a object than v call it METHODS

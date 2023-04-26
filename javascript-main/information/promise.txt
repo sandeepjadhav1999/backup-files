@@ -1,0 +1,4 @@
+WHAT is Promise:
+
+A promise is a object representing the eventula completion or failure of asynchronous opetrations.
+A promise is a returned object to whcich you attach  a callback, instead of passing a callback to  a funtionz

@@ -1,0 +1,31 @@
+HTML:
+
+HTML stands for hypertext markup language
+If a makrup language that web deveplers use to structure and describe the content of the web page
+Html consists of elemets which are used to describe the contents 
+EX: paragragh, heading , images, video
+
+
+******************************************************************************************************
+
+<!DOCTYPE html>     ///to tell the browser that this Document uses html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+attribute: is like a piece of data or information describing the element
+
+
+
+to describe the text in bold v use strong tag
+to describe the text in  italic v use em tag (emphsis)

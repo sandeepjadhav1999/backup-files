@@ -1,0 +1,20 @@
+Primitive Data Types:
+
+* number
+* String
+* Boolean
+* Null
+* undefined
+
+
+
+********************** LET ***************************
+whenever v create a variable using let keyword word than in the future if u try to create a varaible with
+the same key world than it will throw an error
+
+let age =77  //age =77
+
+in future 
+
+let age = 0 //error 
+Syntax Error indentifire age has already been declared
